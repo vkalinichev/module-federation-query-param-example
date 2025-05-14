@@ -1,0 +1,10 @@
+{
+  "name": "remote",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite build && vite preview"
+  }
+}
