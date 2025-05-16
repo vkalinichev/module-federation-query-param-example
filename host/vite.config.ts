@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: "host",
       remotes: {
-        remote: "http://localhost:5176/mf-manifest.json",
+        remote: "http://localhost:5176/mf-manifest.json?version=2",
       },
     }),
   ],
